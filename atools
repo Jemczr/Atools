@@ -1,0 +1,522 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+clear
+
+echo "================================"
+echo "          Atools v1.0            "
+echo "     Termux Package Manager      "
+echo "================================"
+
+echo " 1) apache2"
+echo " 2) aria2"
+echo " 3) at"
+echo " 4) autoconf"
+echo " 5) automake"
+echo " 6) bash"
+echo " 7) bc"
+echo " 8) binutils"
+echo " 9) bison"
+echo "10) busybox"
+echo "11) bzip2"
+echo "12) cabextract"
+echo "13) cargo"
+echo "14) clang"
+echo "15) cmake"
+echo "16) coreutils"
+echo "17) curl"
+echo "18) dash"
+echo "19) diffutils"
+echo "20) dnsutils"
+echo "21) dos2unix"
+echo "22) ed"
+echo "23) ffmpeg"
+echo "24) findutils"
+echo "25) fish"
+echo "26) flex"
+echo "27) gawk"
+echo "28) gcc"
+echo "29) gdb"
+echo "30) git"
+echo "31) glib"
+echo "32) golang"
+echo "33) gpg"
+echo "34) grep"
+echo "35) gzip"
+echo "36) hexedit"
+echo "37) htop"
+echo "38) hostname"
+echo "39) imagemagick"
+echo "40) inetutils"
+echo "41) jq"
+echo "42) less"
+echo "43) libtool"
+echo "44) llvm"
+echo "45) lua"
+echo "46) lynx"
+echo "47) m4"
+echo "48) make"
+echo "49) mariadb"
+echo "50) mc"
+echo "51) micro"
+echo "52) mosh"
+echo "53) nano"
+echo "54) ncdu"
+echo "55) neofetch"
+echo "56) neovim"
+echo "57) net-tools"
+echo "58) nmap"
+echo "59) nodejs"
+echo "60) npm"
+echo "61) openssh"
+echo "62) openssl"
+echo "63) patch"
+echo "64) perl"
+echo "65) php"
+echo "66) postgresql"
+echo "67) proot"
+echo "68) proot-distro"
+echo "69) python"
+echo "70) python-pip"
+echo "71) readline"
+echo "72) redis"
+echo "73) ripgrep"
+echo "74) rsync"
+echo "75) ruby"
+echo "76) rust"
+echo "77) screen"
+echo "78) sed"
+echo "79) sqlite"
+echo "80) strace"
+echo "81) sudo"
+echo "82) tar"
+echo "83) tcpdump"
+echo "84) termux-api"
+echo "85) termux-tools"
+echo "86) tig"
+echo "87) tmux"
+echo "88) tree"
+echo "89) unrar"
+echo "90) unzip"
+echo "91) vim"
+echo "92) wget"
+echo "93) which"
+echo "94) whois"
+echo "95) xz-utils"
+echo "96) yq"
+echo "97) zip"
+echo "98) zsh"
+echo "99) yt-dlp"
+echo "100) pkg-config"
+echo "0) Exit"
+
+echo
+read -p "Select option: " choice
+case $choice in
+
+1)
+pkg install apache2 -y
+;;
+
+2)
+pkg install aria2 -y
+;;
+
+3)
+pkg install at -y
+;;
+
+4)
+pkg install autoconf -y
+;;
+
+5)
+pkg install automake -y
+;;
+
+6)
+pkg install bash -y
+;;
+
+7)
+pkg install bc -y
+;;
+
+8)
+pkg install binutils -y
+;;
+
+9)
+pkg install bison -y
+;;
+
+10)
+pkg install busybox -y
+;;
+
+11)
+pkg install bzip2 -y
+;;
+
+12)
+pkg install cabextract -y
+;;
+
+13)
+pkg install cargo -y
+;;
+
+14)
+pkg install clang -y
+;;
+
+15)
+pkg install cmake -y
+;;
+
+16)
+pkg install coreutils -y
+;;
+
+17)
+pkg install curl -y
+;;
+
+18)
+pkg install dash -y
+;;
+
+19)
+pkg install diffutils -y
+;;
+
+20)
+pkg install dnsutils -y
+;;
+
+21)
+pkg install dos2unix -y
+;;
+
+22)
+pkg install ed -y
+;;
+
+23)
+pkg install ffmpeg -y
+;;
+
+24)
+pkg install findutils -y
+;;
+
+25)
+pkg install fish -y
+;;
+
+26)
+pkg install flex -y
+;;
+
+27)
+pkg install gawk -y
+;;
+
+28)
+pkg install gcc -y
+;;
+
+29)
+pkg install gdb -y
+;;
+
+30)
+pkg install git -y
+;;
+
+31)
+pkg install glib -y
+;;
+
+32)
+pkg install golang -y
+;;
+
+33)
+pkg install gpg -y
+;;
+
+34)
+pkg install grep -y
+;;
+
+35)
+pkg install gzip -y
+;;
+
+36)
+pkg install hexedit -y
+;;
+
+37)
+pkg install htop -y
+;;
+
+38)
+pkg install hostname -y
+;;
+
+39)
+pkg install imagemagick -y
+;;
+
+40)
+pkg install inetutils -y
+;;
+
+41)
+pkg install jq -y
+;;
+
+42)
+pkg install less -y
+;;
+
+43)
+pkg install libtool -y
+;;
+
+44)
+pkg install llvm -y
+;;
+
+45)
+pkg install lua -y
+;;
+
+46)
+pkg install lynx -y
+;;
+
+47)
+pkg install m4 -y
+;;
+
+48)
+pkg install make -y
+;;
+
+49)
+pkg install mariadb -y
+;;
+
+50)
+pkg install mc -y
+;;
+51)
+pkg install micro -y
+;;
+
+52)
+pkg install mosh -y
+;;
+
+53)
+pkg install nano -y
+;;
+
+54)
+pkg install ncdu -y
+;;
+
+55)
+pkg install neofetch -y
+;;
+
+56)
+pkg install neovim -y
+;;
+
+57)
+pkg install net-tools -y
+;;
+
+58)
+pkg install nmap -y
+;;
+
+59)
+pkg install nodejs -y
+;;
+
+60)
+pkg install npm -y
+;;
+
+61)
+pkg install openssh -y
+;;
+
+62)
+pkg install openssl -y
+;;
+
+63)
+pkg install patch -y
+;;
+
+64)
+pkg install perl -y
+;;
+
+65)
+pkg install php -y
+;;
+
+66)
+pkg install postgresql -y
+;;
+
+67)
+pkg install proot -y
+;;
+
+68)
+pkg install proot-distro -y
+;;
+
+69)
+pkg install python -y
+;;
+
+70)
+pkg install python-pip -y
+;;
+
+71)
+pkg install readline -y
+;;
+
+72)
+pkg install redis -y
+;;
+
+73)
+pkg install ripgrep -y
+;;
+
+74)
+pkg install rsync -y
+;;
+
+75)
+pkg install ruby -y
+;;
+76)
+pkg install rust -y
+;;
+
+77)
+pkg install screen -y
+;;
+
+78)
+pkg install sed -y
+;;
+
+79)
+pkg install sqlite -y
+;;
+
+80)
+pkg install strace -y
+;;
+
+81)
+pkg install sudo -y
+;;
+
+82)
+pkg install tar -y
+;;
+
+83)
+pkg install tcpdump -y
+;;
+
+84)
+pkg install termux-api -y
+;;
+
+85)
+pkg install termux-tools -y
+;;
+
+86)
+pkg install tig -y
+;;
+
+87)
+pkg install tmux -y
+;;
+
+88)
+pkg install tree -y
+;;
+
+89)
+pkg install unrar -y
+;;
+
+90)
+pkg install unzip -y
+;;
+
+91)
+pkg install vim -y
+;;
+
+92)
+pkg install wget -y
+;;
+
+93)
+pkg install which -y
+;;
+
+94)
+pkg install whois -y
+;;
+
+95)
+pkg install xz-utils -y
+;;
+
+96)
+pkg install yq -y
+;;
+
+97)
+pkg install zip -y
+;;
+
+98)
+pkg install zsh -y
+;;
+
+99)
+pkg install yt-dlp -y
+;;
+
+100)
+pkg install pkg-config -y
+;;
+
+0)
+exit
+;;
+
+*)
+echo "Invalid option"
+;;
+
+esac
