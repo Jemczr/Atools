@@ -3,8 +3,8 @@
 clear
 
 echo "================================"
-echo "          Atools v2.1            "
-echo "     Termux Package Manager      "
+echo "          JTools v2.1           "
+echo "     Termux Package Manager     "
 echo "================================"
 pause_menu() {
     echo
