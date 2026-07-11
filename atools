@@ -3,10 +3,16 @@
 clear
 
 echo "================================"
-echo "          Atools v2.0            "
+echo "          Atools v2.1            "
 echo "     Termux Package Manager      "
 echo "================================"
-
+pause_menu() {
+    echo
+    read -p "Press Enter to return to menu..."
+    clear
+    bash "$0"
+    exit
+}
 echo " 1) apache2: Hosts and serves websites over HTTP. "
 echo " 2) aria2: Downloads files quickly from multiple sources."
 echo " 3) at: Schedules commands to run at a specific time."
@@ -108,407 +114,511 @@ echo "98) zsh: A powerful command-line shell."
 echo "99) yt-dlp: Downloads videos from online platforms."
 echo "100) pkg-config: Manages compiler and library settings."
 echo "0) Exit"
-
+while true
+do
 echo
 read -p "Select option: " choice
 case $choice in
 
 1)
 pkg install apache2 -y
+pause_menu
 ;;
 
 2)
 pkg install aria2 -y
+pause_menu
 ;;
 
 3)
 pkg install at -y
+pause_menu
 ;;
 
 4)
 pkg install autoconf -y
+pause_menu
 ;;
 
 5)
 pkg install automake -y
+pause_menu
 ;;
 
 6)
 pkg install bash -y
+pause_menu
 ;;
 
 7)
 pkg install bc -y
+pause_menu
 ;;
 
 8)
 pkg install binutils -y
+pause_menu
 ;;
 
 9)
 pkg install bison -y
+pause_menu
 ;;
 
 10)
 pkg install busybox -y
+pause_menu
 ;;
+
 
 11)
 pkg install bzip2 -y
+pause_menu
 ;;
 
 12)
 pkg install cabextract -y
+pause_menu
 ;;
 
 13)
 pkg install cargo -y
+pause_menu
 ;;
 
 14)
 pkg install clang -y
+pause_menu
 ;;
 
 15)
 pkg install cmake -y
+pause_menu
 ;;
 
 16)
 pkg install coreutils -y
+pause_menu
 ;;
 
 17)
 pkg install curl -y
+pause_menu
 ;;
 
 18)
 pkg install dash -y
+pause_menu
 ;;
 
 19)
 pkg install diffutils -y
+pause_menu
 ;;
 
 20)
 pkg install dnsutils -y
+pause_menu
 ;;
 
 21)
 pkg install dos2unix -y
+pause_menu
 ;;
 
 22)
 pkg install ed -y
+pause_menu
 ;;
 
 23)
 pkg install ffmpeg -y
+pause_menu
 ;;
 
 24)
 pkg install findutils -y
+pause_menu
 ;;
 
 25)
 pkg install fish -y
+pause_menu
 ;;
 
 26)
 pkg install flex -y
+pause_menu
 ;;
 
 27)
 pkg install gawk -y
+pause_menu
 ;;
 
 28)
 pkg install gcc -y
+pause_menu
 ;;
 
 29)
 pkg install gdb -y
+pause_menu
 ;;
 
 30)
 pkg install git -y
+pause_menu
 ;;
 
 31)
 pkg install glib -y
+pause_menu
 ;;
 
 32)
 pkg install golang -y
+pause_menu
 ;;
 
 33)
 pkg install gpg -y
+pause_menu
 ;;
 
 34)
 pkg install grep -y
+pause_menu
 ;;
 
 35)
 pkg install gzip -y
+pause_menu
 ;;
 
 36)
 pkg install hexedit -y
+pause_menu
 ;;
 
 37)
 pkg install htop -y
+pause_menu
 ;;
 
 38)
 pkg install hostname -y
+pause_menu
 ;;
 
 39)
 pkg install imagemagick -y
+pause_menu
 ;;
 
 40)
 pkg install inetutils -y
+pause_menu
 ;;
 
 41)
 pkg install jq -y
+pause_menu
 ;;
 
 42)
 pkg install less -y
+pause_menu
 ;;
 
 43)
 pkg install libtool -y
+pause_menu
 ;;
 
 44)
 pkg install llvm -y
+pause_menu
 ;;
 
 45)
 pkg install lua -y
+pause_menu
 ;;
 
 46)
-pkg install lynx -y
+pkg install lynx -
+pause_menu
 ;;
 
 47)
 pkg install m4 -y
+pause_menu
 ;;
 
 48)
 pkg install make -y
+pause_menu
 ;;
 
 49)
 pkg install mariadb -y
+pause_menu
 ;;
 
 50)
 pkg install mc -y
+pause_menu
 ;;
+
 51)
 pkg install micro -y
+pause_menu
 ;;
 
 52)
 pkg install mosh -y
+pause_menu
 ;;
 
 53)
 pkg install nano -y
+pause_menu
 ;;
 
 54)
 pkg install ncdu -y
+pause_menu
 ;;
 
 55)
 pkg install neofetch -y
+pause_menu
 ;;
 
 56)
 pkg install neovim -y
+pause_menu
 ;;
 
 57)
 pkg install net-tools -y
+pause_menu
 ;;
 
 58)
 pkg install nmap -y
+pause_menu
 ;;
 
 59)
 pkg install nodejs -y
+pause_menu
 ;;
 
 60)
 pkg install npm -y
+pause_menu
 ;;
 
 61)
 pkg install openssh -y
+pause_menu
 ;;
 
 62)
 pkg install openssl -y
+pause_menu
 ;;
 
 63)
 pkg install patch -y
+pause_menu
 ;;
 
 64)
 pkg install perl -y
+pause_menu
 ;;
 
 65)
 pkg install php -y
+pause_menu
 ;;
 
 66)
 pkg install postgresql -y
+pause_menu
 ;;
 
 67)
 pkg install proot -y
+pause_menu
 ;;
 
 68)
 pkg install proot-distro -y
+pause_menu
 ;;
 
 69)
 pkg install python -y
+pause_menu
 ;;
 
 70)
 pkg install python-pip -y
+pause_menu
 ;;
 
 71)
 pkg install readline -y
+pause_menu
 ;;
 
 72)
 pkg install redis -y
+pause_menu
 ;;
 
 73)
 pkg install ripgrep -y
+pause_menu
 ;;
 
 74)
 pkg install rsync -y
+pause_menu
 ;;
 
 75)
 pkg install ruby -y
+pause_menu
 ;;
+
 76)
 pkg install rust -y
+pause_menu
 ;;
 
 77)
 pkg install screen -y
+pause_menu
 ;;
 
 78)
 pkg install sed -y
+pause_menu
 ;;
 
 79)
 pkg install sqlite -y
+pause_menu
 ;;
 
 80)
 pkg install strace -y
+pause_menu
 ;;
 
 81)
 pkg install sudo -y
+pause_menu
 ;;
 
 82)
 pkg install tar -y
+pause_menu
 ;;
 
 83)
 pkg install tcpdump -y
+pause_menu
 ;;
 
 84)
 pkg install termux-api -y
+pause_menu
 ;;
 
 85)
 pkg install termux-tools -y
+pause_menu
 ;;
 
 86)
 pkg install tig -y
+pause_menu
 ;;
 
 87)
 pkg install tmux -y
+pause_menu
 ;;
 
 88)
 pkg install tree -y
+pause_menu
 ;;
 
 89)
 pkg install unrar -y
+pause_menu
 ;;
 
 90)
 pkg install unzip -y
+pause_menu
 ;;
 
 91)
 pkg install vim -y
+pause_menu
 ;;
 
 92)
 pkg install wget -y
+pause_menu
 ;;
 
 93)
 pkg install which -y
+pause_menu
 ;;
 
 94)
 pkg install whois -y
+pause_menu
 ;;
 
 95)
 pkg install xz-utils -y
+pause_menu
 ;;
 
 96)
 pkg install yq -y
+pause_menu
 ;;
 
 97)
 pkg install zip -y
+pause_menu
 ;;
 
 98)
 pkg install zsh -y
+pause_menu
 ;;
 
 99)
 pkg install yt-dlp -y
+pause_menu
 ;;
 
 100)
 pkg install pkg-config -y
+pause_menu
 ;;
 
 0)
@@ -520,3 +630,4 @@ echo "Invalid option"
 ;;
 
 esac
+done
